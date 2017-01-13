@@ -23,19 +23,33 @@ export class Pack implements IObservable, IEntity {
         this.observers = [];
     }
 
+    /**
+     * @inheritdoc
+     */
     public addObserver(observer: IObserver) {
         this.observers.push(observer);
     }
 
+    /**
+     * @inheritdoc
+     */
     public removeObserver(observer: IObserver) {
         _.pull(this.observers, observer);
     }
 
+    /**
+     * Updates state of pack. Informs observers about change.
+     * @param action {Action}
+     * @param carrier {AbstractCarrier}
+     */
     public updateState(action: Action, carrier: AbstractCarrier) {
         const event = new UpdateEvent(Uuid.v4(), action, carrier, this);
         this.informObservers(event);
     }
 
+    /**
+     * @inheritdoc
+     */
     public informObservers(event: UpdateEvent) {
         this.observers.forEach((observer) => {
             observer.onUpdate(event);

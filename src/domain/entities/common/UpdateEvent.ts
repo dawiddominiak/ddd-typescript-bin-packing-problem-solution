@@ -17,6 +17,10 @@ export class UpdateEvent implements IEntity {
         this.pack = pack;
     }
 
+    /**
+     * Returns human readable report from event.
+     * @returns string
+     */
     public report() {
         return SprintfJs.sprintf(
             "%s: Action: %s, Carrier: %s, pack: %s.",

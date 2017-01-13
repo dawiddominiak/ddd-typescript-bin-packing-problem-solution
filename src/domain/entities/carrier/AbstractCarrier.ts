@@ -5,7 +5,7 @@ export abstract class AbstractCarrier implements IEntity {
 
     /**
      * AbstractCarrier constructor.
-     * @param name {string} name of carrier.
+     * @param name {string} name of carrier. Identity of carrier.
      */
     constructor(name: string) {
         this.name = name;
