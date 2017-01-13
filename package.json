@@ -1,6 +1,6 @@
 {
   "name": "ddd-multiple-knapsack-problem-solution",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "ddd-multiple-knapsack-problem-solution",
   "license": "MIT",
   "repository": "",
@@ -22,12 +22,20 @@
     "watch:test": "npm run test -- --watch"
   },
   "dependencies": {
+    "lodash": "^4.17.4",
+    "sprintf-js": "^1.0.3",
+    "uuid": "^3.0.1"
   },
   "devDependencies": {
     "@types/chai": "^3.0.0",
+    "@types/chai-spies": "0.0.0",
+    "@types/lodash": "^4.14.50",
     "@types/mocha": "^2.0.0",
     "@types/node": "6.0.31",
+    "@types/sprintf-js": "0.0.27",
+    "@types/uuid": "^2.0.29",
     "chai": "^3.0.0",
+    "chai-spies": "^0.7.1",
     "mocha": "^3.0.0",
     "rimraf": "^2.0.0",
     "ts-node": "^1.0.0",

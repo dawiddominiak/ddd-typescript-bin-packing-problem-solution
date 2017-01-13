@@ -6,7 +6,8 @@
     "noImplicitAny": true,
     "outDir": "./lib",
     "preserveConstEnums": true,
-    "removeComments": true
+    "removeComments": true,
+    "target": "es6"
   },
   "include": [
     "src/**/*"
