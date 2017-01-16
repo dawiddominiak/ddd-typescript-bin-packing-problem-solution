@@ -4,6 +4,9 @@ import { Pack } from "../entities/pack/Pack";
 import { IPackingStrategy } from "../entities/warehouseman/IPackingStrategy";
 
 export class GreedyPackingStrategy implements IPackingStrategy {
+    /**
+     * @inheritdoc
+     */
     public pack(packs: Pack[], courierGenerator: any) {
         this.sortPacksByWeightDesc(packs);
 
