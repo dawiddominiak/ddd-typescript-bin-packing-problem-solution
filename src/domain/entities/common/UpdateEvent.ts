@@ -27,8 +27,7 @@ export class UpdateEvent implements IEntity {
             this.uuid,
             Action[this.action],
             this.carrier.getName(),
-            // tslint:disable-next-line:trailing-comma
-            this.pack.getId()
+            this.pack.getId(),
         );
     }
 

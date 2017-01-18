@@ -33,8 +33,7 @@ export class Courier extends AbstractCarrier {
                 "Courier could not carry additional %d kg, because current load is %d and max load is %d",
                 packWeight,
                 currentLoadWeight,
-                // tslint:disable-next-line:trailing-comma
-                this.maxLoad
+                this.maxLoad,
             ));
         }
 
