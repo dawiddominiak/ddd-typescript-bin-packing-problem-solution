@@ -1,5 +1,5 @@
 {
-  "name": "ddd-multiple-knapsack-problem-solution",
+  "name": "ddd-bin-packing-problem-solution",
   "version": "0.1.0",
   "dependencies": {
     "@types/chai": {

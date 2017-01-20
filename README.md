@@ -1,7 +1,7 @@
 TypeScript application created adhering to the rules of Domain-Driven Design.
 
 # What does this application do?
-It’s variation of multiple knapsack problem solution. The truck with unlimited number and load of packs arrives daily in the morning. The warehouseman has to repack all packs to courier’s cars. The maximum load of single courier car is 200 kg. Application optimize the number of needed courier’s cars to minimum. All actions connected with packs and warehouseman are kept in memory during the object lifecycle and we have access to them.
+It’s variation of bin packing problem solution. The truck with unlimited number and load of packs arrives daily in the morning. The warehouseman has to repack all packs to courier’s cars. The maximum load of single courier car is 200 kg. Application optimize the number of needed courier’s cars to minimum. All actions connected with packs and warehouseman are kept in memory during the object lifecycle and we have access to them.
 
 # What is it for?
  - to show that it’s possible to write code in TypeScript adhering to the rules of DDD.
@@ -21,4 +21,4 @@ npm run-script integration-test
 ```
 
 # Usage
-[Usage example](https://github.com/dawiddominiak/ddd-typescript-multiple-knapsack-problem-solution/blob/master/integration-test/workday.ts#L37)
+[Usage example](https://github.com/dawiddominiak/ddd-typescript-bin-packing-problem-solution/blob/master/integration-test/workday.ts#L37)
