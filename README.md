@@ -6,9 +6,9 @@ It’s variation of bin packing problem solution. The truck with unlimited numbe
 # What is it for?
  - to show that it’s possible to write code in TypeScript adhering to the rules of DDD.
  - simple to understand (there are no repositories, no unnecessary lines of code).
- - to show that it’s possible to implement IoC without using Dependency Injection (just implement public interface and use your own strategy to repack the truck).
+ - to show that it’s possible to implement IoC without using Dependency Injection Container.
  - I always wondered if it’s possible: [my question in stackoverflow](http://stackoverflow.com/questions/34027990/domain-driven-design-in-node-js-application).
- 
+
 # How to test it?
 Unit tests:
 ```
