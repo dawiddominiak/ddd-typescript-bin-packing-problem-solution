@@ -2,7 +2,7 @@ import * as chai from "chai";
 import * as Uuid from "uuid";
 import { Courier } from "../../../src/domain/entities/carrier/Courier";
 import { Pack } from "../../../src/domain/entities/pack/Pack";
-import { GreedyPackingStrategy } from "../../../src/domain/service/GreedyPackingStrategy";
+import { GreedyPackingStrategy } from "../../../src/infrastructure/GreedyPackingStrategy";
 
 const expect = chai.expect;
 

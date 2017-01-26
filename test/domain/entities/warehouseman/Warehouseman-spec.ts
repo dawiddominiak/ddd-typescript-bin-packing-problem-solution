@@ -6,8 +6,8 @@ import { Truck } from "../../../../src/domain/entities/carrier/Truck";
 import { Action } from "../../../../src/domain/entities/common/Action";
 import { UpdateEvent } from "../../../../src/domain/entities/common/UpdateEvent";
 import { Pack } from "../../../../src/domain/entities/pack/Pack";
-import { IPackingStrategy } from "../../../../src/domain/entities/warehouseman/IPackingStrategy";
 import { Warehouseman } from "../../../../src/domain/entities/warehouseman/Warehouseman";
+import { IPackingStrategy } from "../../../../src/domain/service/IPackingStrategy";
 
 chai.use(spies);
 const expect = chai.expect;

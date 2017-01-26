@@ -1,7 +1,7 @@
-import { Courier } from "../entities/carrier/Courier";
-import { CourierOverloadedError } from "../entities/carrier/errors/CourierOverloadedError";
-import { Pack } from "../entities/pack/Pack";
-import { IPackingStrategy } from "../entities/warehouseman/IPackingStrategy";
+import { Courier } from "../domain/entities/carrier/Courier";
+import { CourierOverloadedError } from "../domain/entities/carrier/errors/CourierOverloadedError";
+import { Pack } from "../domain/entities/pack/Pack";
+import { IPackingStrategy } from "../domain/service/IPackingStrategy";
 
 export class GreedyPackingStrategy implements IPackingStrategy {
     /**

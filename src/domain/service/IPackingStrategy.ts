@@ -1,5 +1,5 @@
-import { Courier } from "../carrier/Courier";
-import { Pack } from "../pack/Pack";
+import { Courier } from "../../domain/entities/carrier/Courier";
+import { Pack } from "../../domain/entities/pack/Pack";
 
 export interface IPackingStrategy {
     /**

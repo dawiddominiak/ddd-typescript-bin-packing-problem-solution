@@ -1,7 +1,8 @@
-import { Truck } from "../entities/carrier/Truck";
-import { Warehouseman } from "../entities/warehouseman/Warehouseman";
+import { Truck } from "../domain/entities/carrier/Truck";
+import { Warehouseman } from "../domain/entities/warehouseman/Warehouseman";
+import { IWorkdayService } from "../domain/service/IWorkdayService";
 
-export class WorkdayService {
+export class WorkdayService implements IWorkdayService {
     /**
      * begin
      * @param truck {Truck} - a truck arriving in the morning.

@@ -1,11 +1,11 @@
 import * as chai from "chai";
 import * as spies from "chai-spies";
 import * as Uuid from "uuid";
-import { Courier } from "../../../src/domain/entities/carrier/Courier";
-import { Truck } from "../../../src/domain/entities/carrier/Truck";
-import { Warehouseman } from "../../../src/domain/entities/warehouseman/Warehouseman";
-import { GreedyPackingStrategy } from "../../../src/domain/service/GreedyPackingStrategy";
-import { WorkdayService } from "../../../src/domain/service/WorkdayService";
+import { Courier } from "../../src/domain/entities/carrier/Courier";
+import { Truck } from "../../src/domain/entities/carrier/Truck";
+import { Warehouseman } from "../../src/domain/entities/warehouseman/Warehouseman";
+import { GreedyPackingStrategy } from "../../src/infrastructure/GreedyPackingStrategy";
+import { WorkdayService } from "../../src/infrastructure/WorkdayService";
 
 chai.use(spies);
 const expect = chai.expect;

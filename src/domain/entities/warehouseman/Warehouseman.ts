@@ -1,10 +1,10 @@
+import { IPackingStrategy } from "../../service/IPackingStrategy";
 import { IEntity } from "../../shared/IEntity";
 import { IObserver } from "../../shared/IObserver";
 import { Truck } from "../carrier/Truck";
 import { Action } from "../common/Action";
 import { UpdateEvent } from "../common/UpdateEvent";
 import { Pack } from "../pack/Pack";
-import { IPackingStrategy } from "./IPackingStrategy";
 
 export class Warehouseman implements IObserver, IEntity {
     private name: string;

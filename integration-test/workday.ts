@@ -4,8 +4,8 @@ import { Courier } from "../src/domain/entities/carrier/Courier";
 import { Truck } from "../src/domain/entities/carrier/Truck";
 import { Pack } from "../src/domain/entities/pack/Pack";
 import { Warehouseman } from "../src/domain/entities/warehouseman/Warehouseman";
-import { GreedyPackingStrategy } from "../src/domain/service/GreedyPackingStrategy";
-import { WorkdayService } from "../src/domain/service/WorkdayService";
+import { GreedyPackingStrategy } from "../src/infrastructure/GreedyPackingStrategy";
+import { WorkdayService } from "../src/infrastructure/WorkdayService";
 
 const expect = chai.expect;
 
